@@ -1,0 +1,21 @@
+.container-conteudo{
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+#img-logo{
+    height: 80px;
+}
+
+.container-imagem{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 767px){
+
+    #btn-maps{
+        margin-left: 15px;
+    }
+
+}

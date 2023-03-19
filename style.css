@@ -1,0 +1,154 @@
+#img-logo{
+    height: 80px;
+}
+
+#divisor-navbar-carrossel{
+    height: 8px;
+}
+
+.img-carrossel{
+    height: 200px;
+}
+
+.container-sobre-servicos{
+    text-align: center;
+    padding: 20px;
+}
+
+.materiais-left{
+    margin-bottom: 10%;
+    padding-top: 3%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.img-tipo-sucata{
+    width: 100%;
+    height: 20%;
+    border-radius: 8px;
+}
+
+.materiais-left h4{
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.materiais-left p{
+    margin-top: 5%;
+    text-align: justify;
+}
+
+#divisor-tipos-contato{
+    height: 8px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.contato-localizacao{
+    padding-bottom: 20px;
+}
+
+
+.contato-localizacao h1, .contato-localizacao h4, .contato-localizacao p{
+    text-align: center;
+}
+
+iframe{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+/*PARA TELAS MAIORES QUE 768px*/
+@media only screen and (min-width: 767px) {
+    #img-logo{
+        height: 80px;
+    }
+    
+    #divisor-navbar-carrossel{
+        height: 8px;
+    }
+    
+    #btn-maps{
+        margin-left: 15px;
+    }
+
+    .img-carrossel{
+        height: 550px;
+    }
+    
+    .container-sobre-servicos{
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .materiais-left{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+        padding: 12px 0px;
+        border-radius: 5px;
+    }
+    
+
+    .img-tipo-sucata{
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+    }
+    
+    .materiais-left h4{
+        margin: 0 3%;
+        text-align: justify;
+    }
+    
+    .materiais-left p{
+        margin: 20px  6% 0px 3%;
+        text-align: justify;
+    }
+    
+    #divisor-tipos-contato{
+        height: 8px;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+    
+    .contato-localizacao{
+        text-align: center;
+    }
+    
+    .container-contato{
+        display: flex;
+        height: 300px;
+        margin-bottom: 80px;
+    }
+    
+    .contato-info{
+        display: inline;
+        height: 100%px;
+        width: 50%;
+        text-align: start;
+    }
+    
+    .contato-info p{
+        margin: 0;
+    }
+    
+    .infos-contato{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    
+    .contato-map{
+        padding: 30px;
+        display: inline;
+        height: 100%;
+        width: 50%;
+    }
+    
+    iframe{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+    }
+  }
